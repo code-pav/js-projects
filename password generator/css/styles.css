@@ -1,0 +1,32 @@
+body{
+	font-family: "Verdana", sans-serif;
+	margin: auto;;
+	text-align: center;
+}
+.wrapper{
+	padding:20px;
+	display: inline-block;
+}
+#amountOfDigits{
+	height: 20px;
+	width: 30px;
+	text-align: center;;
+	overflow: hidden;
+	font-family: "Verdana";
+}
+
+button{
+	display: block;
+	margin: 10px auto;
+	font-size: 16px;
+	font-family: "Verdana", sans-serif;
+	padding: 10px;
+}
+
+#generated{
+	font-size: 20px;
+}
+
+.hidden {
+	display: none;
+}

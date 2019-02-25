@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bulb Project</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="initStage()" ondragstart="return false;" ondrop="return false;">
+	<div class="wrapper">
+		<div class="topPart">
+			<h1>Bulb change game</h1>
+			<input oninput="changeFieldSize(this.value)" type="range" min="1" max="12" value="6" class="slider" id="myRange">
+			<button onclick="clearField()" name="resetAll">Reset All</button>
+		</div>
+		<div class="bottomPart">
+		</div>
+	</div>
+	<script src="js/javascript.js"></script>
+</body>
+</html>

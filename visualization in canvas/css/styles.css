@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	padding: 20px;
+	/*background: red;*/
+	text-align: center;
+	position: relative;
+}
+canvas{
+	/*position: absolute;*/
+	margin: 0 auto;
+	border: 1px solid black;
+}

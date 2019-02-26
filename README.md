@@ -1,4 +1,4 @@
-# All my JS projects# js-projects
+# All my basic "one-day" JS projects
 
 --------------------------------------------------------------------------
 - [password generator] |
@@ -17,3 +17,8 @@ Perlin noise, and basic stuff visualized.
 --------------------------------------------------------------------------
 - [ping pong] | 
 The "Ping-pong" game. Unbeatable computer.
+
+
+--------------------------------------------------------------------------
+- [to do] | 
+To do task manager on pure js.

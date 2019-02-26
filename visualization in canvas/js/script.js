@@ -36,33 +36,33 @@ function draw (){
 	ctx.clearRect(-SIZE/2,-SIZE/2, SIZE,SIZE);
 
 
-	ctx.lineWidth = "1";
-	ctx.strokeStyle = "black"; // Green path
-	ctx.beginPath();
-	// noise.seed(Math.random());
-	// let endX, endY;
-	// let start = true;
-	for(let a=0; a < TWO_PI; a+=0.1){
-		let xoff = map(Math.cos(a +phase),-1,1,0,noiseMax);
-		let yoff = map(Math.sin(a +phase),-1,1,0,noiseMax);
-		let r = map(noise.perlin2(xoff, yoff),-1,1,100,200);
-		let x = r * Math.cos(a);
-		let y = r * Math.sin(a);
-		// if(start){
-		// 	endX = x;
-		// 	endY = y;
-		// 	start = false;
-		// }
-		ctx.lineTo(x,y);
-	}
-	phase+=1;
+	// ctx.lineWidth = "1";
+	// ctx.strokeStyle = "black"; // Green path
+	// ctx.beginPath();
+	// // noise.seed(Math.random());
+	// // let endX, endY;
+	// // let start = true;
+	// for(let a=0; a < TWO_PI; a+=0.1){
+	// 	let xoff = map(Math.cos(a +phase),-1,1,0,noiseMax);
+	// 	let yoff = map(Math.sin(a +phase),-1,1,0,noiseMax);
+	// 	let r = map(noise.perlin2(xoff, yoff),-1,1,100,200);
+	// 	let x = r * Math.cos(a);
+	// 	let y = r * Math.sin(a);
+	// 	// if(start){
+	// 	// 	endX = x;
+	// 	// 	endY = y;
+	// 	// 	start = false;
+	// 	// }
+	// 	ctx.lineTo(x,y);
+	// }
+	// phase+=1;
 	// ctx.lineTo(endX,endY);
 	ctx.stroke();
 }
 
 
 
-function map(x, in_min, in_max, out_min, out_max) {
+function maps(x, in_min, in_max, out_min, out_max) {
   return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 

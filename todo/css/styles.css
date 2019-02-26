@@ -1,0 +1,131 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Courgette', cursive;
+}
+.wrapper{
+	text-align: center;
+}
+.todo{
+	margin: 20px;
+	border-radius: 20px;
+	padding: 20px;
+	padding-bottom: 0px;
+	background: linear-gradient(#b2cfff,#6ca3fc);
+	display: inline-block;
+	min-width: 550px;
+	max-width: 800px;
+	color: #3a024f;
+	box-shadow: 5px 5px 30px black;	
+}
+h1{
+	font-size: 76px;
+	margin: 0px;
+}
+.logo{
+	text-shadow: 1px 1px 10px white;
+}
+#holder{
+	padding: 20px 0;
+	/*background: yellow;*/
+}
+.footer{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.toggle-group{
+	display: inline;
+}
+button{
+	background: transparent;
+	padding: 2px 10px;
+	border: 1px solid transparent;
+	font-family: 'Courgette', cursive;
+}
+button.toggled{
+	background-color: red;
+}
+button:hover{
+	color: white; 
+}
+button:focus{
+	/*background: red;*/
+	outline: none;
+	border: 1px solid transparent;
+}
+
+input[type="text"]{
+	font-family: 'Courgette', cursive;
+	border: 0px solid transparent;
+	border-radius: 12px;
+	padding: 4px 10px;
+	width: 90%;
+	height: 30px;
+	font-size: 20px;
+}
+input[type="text"]:focus{
+	outline: none;
+}
+.input{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.input > button{
+	font-weight: bolder;
+	font-size: 20px;
+	width: 30px;
+	height: 34px;
+}
+
+.logo, .footer > p{
+	user-select: none;
+}
+
+.task{
+	display: flex;
+	background: #b2cfff;
+	text-align: left;	
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #6ca3fc;
+	border-radius: 10px;
+	padding: 2px 5px; 
+}
+
+.task > p{
+	line-height: 30px;
+	font-size: 22px;
+	margin: 0;
+	overflow: hidden;
+	cursor: default;
+	width: 90%;
+	user-select: none;
+	padding-left: 5px;
+}
+.task > button{
+	background: #6ca3fc;
+	box-shadow: 0 0 10px white; 
+	font-family: Arial;
+	/*b2cfff*/
+	margin: 3px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.strike{
+	color: black;
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.hidden{
+	display: none;
+}
+
+.choosen {
+	color: white;
+}

@@ -84,7 +84,11 @@ function removeItem (event) {
 
 function clearCompleted(){
 	task = task.filter(el => el.childNodes[0].className != "strike");
-	recreate(task);
+	if(currentState != "completed"){
+		recreate(task);
+	}else{
+		recreate([]);
+	}
 	hideBottomPart()
 }
 

@@ -19,11 +19,11 @@
 			<div class="footer hidden">
 				<p id="item-counter">0 item</p>
 				<div class="toggle-group">
-					<button id="all" class="choosen">All</button>
-					<button id="active">Active</button>
-					<button id="completed">Completed</button>
+					<button onclick="display(`all`)" id="all" class="choosen">All</button>
+					<button onclick="display(`active`)" id="active">Active</button>
+					<button onclick="display(`completed`)" id="completed">Completed</button>
 				</div>
-				<button >Clear completed</button>
+				<button onclick="clearCompleted()">Clear completed</button>
 			</div>
 		</div>
 	</div>

@@ -1,4 +1,4 @@
-# All my basic "one-day" JS projects
+# All my small "one-day" JS projects
 
 --------------------------------------------------------------------------
 - [password generator] |

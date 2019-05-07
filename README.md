@@ -11,10 +11,6 @@ Task from https://learn.freecodecamp.org/coding-interview-prep/take-home-project
 First try aproach. After 1 month of JS.
 
 --------------------------------------------------------------------------
-- [visualization in canvas] | (in progress)
-Perlin noise, and basic stuff visualized.
-
---------------------------------------------------------------------------
 - [ping pong] | 
 The "Ping-pong" game. Unbeatable computer.
 
